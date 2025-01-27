@@ -1,0 +1,83 @@
+body{
+    font-family: sans-serif;
+    background-color: #fafafd;
+}
+main {
+    display: flex;
+    gap: 32px;
+    padding: 32px;
+}
+.form-group {
+display: flex;
+flex-direction: column;
+margin-bottom: 1rem; 
+
+}
+label {
+margin-bottom: 0.5rem; 
+}
+input {
+padding: 0.5rem; 
+border: 1px solid #ccc; 
+border-radius: 4px; 
+}
+.b {
+    display: flex;
+    gap: 32px;
+}
+.c{
+    text-align: center;
+    background-color: #bddbc2;
+    padding: 10px;
+}
+.d{
+    text-align: center;
+}
+#result-bmi {
+    font-size: xxx-large;
+    font-family: math;
+
+}
+.main-header {
+    text-align: center;
+    padding: 15px;
+    background-color: #bddbc2;
+}
+footer{
+    text-align: center;
+    padding: 15px;
+    background-color: #bddbc2;
+}
+form {
+    background-color: #bddbc2;
+    padding: 32px;
+    margin: 20px 0; /* Ruang di luar elemen */
+    border-radius: 8px; /* Sudut yang membulat */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+    text-align: center;
+}
+#status-description {
+    margin-left: 20px; /* Memberikan jarak antara hasil BMI dan keterangan status */
+    font-weight: bold; /* Menebalkan teks keterangan status */
+    color: #333; /* Warna teks keterangan status */
+}
+button{
+    border: none;
+    padding: 8px;
+    color: #ffffff;
+}
+.bg-a{
+    background-color: #6b8775;
+}
+.bg-b{
+    background-color: #2e3832;
+}
+.introduction {
+    background-color: #f9f9f9; /* Warna latar belakang yang lembut */
+    padding: 20px; /* Ruang di dalam elemen */
+    margin: 20px 0; /* Ruang di luar elemen */
+    border-radius: 8px; /* Sudut yang membulat */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+    font-size: 1.1em; /* Ukuran font yang sedikit lebih besar */
+    line-height: 1.6; /* Jarak antar baris yang lebih baik */
+}

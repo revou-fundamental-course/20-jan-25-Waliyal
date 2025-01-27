@@ -5,71 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css\#styles.css">
-    <style>
-    body{
-        font-family: sans-serif;
-    }
-    main {
-        display: flex;
-        gap: 32px;
-        padding: 32px;
-    }
-    .form-group {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1rem; 
-    }
-    label {
-    margin-bottom: 0.5rem; 
-    }
-    input {
-    padding: 0.5rem; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    }
-    .b {
-        display: flex;
-        gap: 32px;
-    }
-    .c{
-        text-align: center;
-        background-color: #bddbc2;
-        padding: 10px;
-    }
-    .d{
-        text-align: center;
-    }
-    #result-bmi {
-        font-size: xxx-large;
-        font-family: math;
-    }
-    .main-header {
-        text-align: center;
-        padding: 15px;
-        background-color: #bddbc2;
-    }
-    footer{
-        text-align: center;
-        padding: 15px;
-        background-color: #bddbc2;
-    }
-    form {
-        background-color: #bddbc2;
-        padding: 32px;
-    }
-    button{
-        border: none;
-        padding: 8px;
-        color: #ffffff;
-    }
-    .bg-a{
-        background-color: #6b8775;
-    }
-    .bg-b{
-        background-color: #2e3832;
-    }
-    </style>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="js/script.js"></script>
+
 </head>
     <header class="main-header">
         <h1>Kalkulator BMI</h1>
@@ -78,12 +16,11 @@
     <main class="b">
         <section>
              <!--Introduction-->
-        <article>
-            <p>Pernahkah Anda penasaran dengan status berat badan Anda? Dengan Kalkulator BMI ini, Anda bisa mengetahui dengan mudah apakah berat badan Anda sudah ideal atau perlu perhatian lebih. 
-                Cukup masukkan tinggi badan dan berat badan, dan biarkan kalkulator ini memberikan hasil yang membantu Anda menjaga kesehatan. 
-                Ayo, coba sekarang dan mulai perhatikan kesehatan tubuh Anda dengan cara yang praktis!</p>
-
-        </article>
+             <section class="introduction">
+                <p>Pernahkah Anda penasaran dengan status berat badan Anda? Dengan Kalkulator BMI ini, Anda bisa mengetahui dengan mudah apakah berat badan Anda sudah ideal atau perlu perhatian lebih.</p>
+                <p>Cukup masukkan tinggi badan dan berat badan, dan biarkan kalkulator ini memberikan hasil yang membantu Anda menjaga kesehatan.</p>
+                <p>Ayo, coba sekarang dan mulai perhatikan kesehatan tubuh Anda dengan cara yang praktis!</p>
+            </section>
         <form>
             <div class="form-group">
                 <label for="Input-berat-badan">Berat Badan (Kg)</label>
@@ -108,7 +45,7 @@
             <header>
                 <h2 class="d">Kegunaan Fitur</h2>
             </header>
-            <ol>
+            <ol class="introduction">
                 <li><strong>Mengetahui Berat Badan Ideal:</strong> Kalkulator BMI membantu Anda menentukan apakah berat badan Anda berada dalam kategori sehat.</li>
                 <li><strong>Hasil Perhitungan Instan:</strong> Dapatkan hasil perhitungan BMI secara langsung hanya dengan memasukkan tinggi dan berat badan.</li>
                 <li><strong>Informasi Kesehatan yang Berguna:</strong> Dapatkan penjelasan tentang kategori berat badan (kekurangan, normal, kelebihan, obesitas) untuk memahami kondisi kesehatan Anda.</li>
@@ -118,18 +55,23 @@
         </article>
         </section>
         <section>
-            <article>
+            <form>
                 <header class="c">
                     <h2>Hasil BMI</h2>
                 </header>
-                <section class="c">
+                <div>
                     <span id="result-bmi">0</span>
-                </section>
-                <p>Jika Anda merasa hasilnya belum sesuai harapan, jangan khawatir! 
-                Ini adalah langkah pertama untuk lebih peduli pada kesehatan tubuh Anda. 
-                Ingat, setiap perubahan dimulai dari langkah kecil. 
-                Dengan sedikit perhatian lebih terhadap pola makan dan aktivitas fisik, Anda bisa mencapai tubuh yang lebih sehat dan bugar. 
-                Ayo, mulai sekarang dan jadikan kesehatan sebagai prioritas!</p>
+                    <p id="status-description" style="display: flex; flex-direction: column;"></p> <!-- Tempat untuk keterangan status -->
+                </div>
+            </form>
+            <article>
+                <div class="introduction">
+                    <p>Jika Anda merasa hasilnya belum sesuai harapan, jangan khawatir!</p>
+                    <p>Ini adalah langkah pertama untuk lebih peduli pada kesehatan tubuh Anda.</p>
+                    <p>Ingat, setiap perubahan dimulai dari langkah kecil.</p>
+                    <p>Dengan sedikit perhatian lebih terhadap pola makan dan aktivitas fisik, Anda bisa mencapai tubuh yang lebih sehat dan bugar.</p>
+                    <p>Ayo, mulai sekarang dan jadikan kesehatan sebagai prioritas!</p>
+                </div>
             </article>
         </section>
     </main>
