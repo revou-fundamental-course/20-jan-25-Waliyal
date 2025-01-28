@@ -11,7 +11,7 @@ main {
 display: flex;
 flex-direction: column;
 margin-bottom: 1rem; 
-color: #6f4815;
+color: #fffefd;
 }
 label {
 margin-bottom: 0.5rem; 
@@ -39,8 +39,9 @@ border-radius: 4px;
     display: flex;
     align-items: baseline;
     justify-content: space-around;
-    flex-direction: row;
-    color: #694129;
+    flex-direction: column;
+    color: #6f4815;
+    font-size: large;
 }
 #result-bmi {
     font-size: xxx-large;
@@ -51,7 +52,7 @@ border-radius: 4px;
     text-align: center;
     padding: 15px;
     background-color: #6db579;
-    color: #6f4815;
+    color: #ffffff;
     margin: 20px 0; /* Ruang di luar elemen */
     border-radius: 8px; /* Sudut yang membulat */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
