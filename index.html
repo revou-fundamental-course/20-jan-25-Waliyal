@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kalkulator BMI</title>
     <link rel="stylesheet" href="./css/styles.css">
     <script src="js/script.js"></script>
 
@@ -21,6 +21,15 @@
                 <p>Cukup masukkan tinggi badan dan berat badan, dan biarkan kalkulator ini memberikan hasil yang membantu Anda menjaga kesehatan.</p>
                 <p>Ayo, coba sekarang dan mulai perhatikan kesehatan tubuh Anda dengan cara yang praktis!</p>
             </section>
+        <form>
+            <section class="f">
+                <label for="jenis_kelamin">Jenis Kelamin:</label><br>
+                <input type="radio" id="laki" name="jenis_kelamin" value="L" required>
+                <label for="laki">Laki-laki</label><br>
+                <input type="radio" id="perempuan" name="jenis_kelamin" value="P">
+                <label for="perempuan">Perempuan</label><br>  
+            </section>
+        </form>
         <form>
             <div class="form-group">
                 <label for="Input-berat-badan">Berat Badan (Kg)</label>
@@ -60,8 +69,8 @@
                     <h2>Hasil BMI</h2>
                 </header>
                 <div>
-                    <span id="result-bmi">0</span>
-                    <p id="status-description" style="display: flex; flex-direction: column;"></p> <!-- Tempat untuk keterangan status -->
+                    <span id="result-bmi" style="color: #6f4815;">0</span>
+                    <p id="status-description" style="display: flex; flex-direction: column; color: #6f4815;""></p> <!-- Tempat untuk keterangan status -->
                 </div>
             </form>
             <article>
@@ -76,7 +85,7 @@
         </section>
     </main>
     <footer>
-        <span>Made By Waliyalhuzan@2025</span>
+        <span style="color: #463333;">©Copyright 2025 By Waliyalhuzan. All Rights Reserved.</span>
     </footer>
 <body>
     

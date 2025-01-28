@@ -1,6 +1,6 @@
 body{
     font-family: sans-serif;
-    background-color: #fafafd;
+    background-color: #e7f3e6;
 }
 main {
     display: flex;
@@ -11,7 +11,7 @@ main {
 display: flex;
 flex-direction: column;
 margin-bottom: 1rem; 
-
+color: #6f4815;
 }
 label {
 margin-bottom: 0.5rem; 
@@ -27,29 +27,45 @@ border-radius: 4px;
 }
 .c{
     text-align: center;
-    background-color: #bddbc2;
+    background-color: #6db579;
     padding: 10px;
+    color: #6f4815;
 }
 .d{
     text-align: center;
+    color: #604a4a;
+}
+.f{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    flex-direction: row;
+    color: #694129;
 }
 #result-bmi {
     font-size: xxx-large;
     font-family: math;
-
+    color: #6f4815;
 }
 .main-header {
     text-align: center;
     padding: 15px;
-    background-color: #bddbc2;
+    background-color: #6db579;
+    color: #6f4815;
+    margin: 20px 0; /* Ruang di luar elemen */
+    border-radius: 8px; /* Sudut yang membulat */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
 }
 footer{
     text-align: center;
     padding: 15px;
-    background-color: #bddbc2;
+    background-color: #6db579;
+    margin: 20px 0; /* Ruang di luar elemen */
+    border-radius: 8px; /* Sudut yang membulat */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
 }
 form {
-    background-color: #bddbc2;
+    background-color: #6db579;
     padding: 32px;
     margin: 20px 0; /* Ruang di luar elemen */
     border-radius: 8px; /* Sudut yang membulat */
@@ -68,16 +84,19 @@ button{
 }
 .bg-a{
     background-color: #6b8775;
+    border-radius: 4px;
 }
 .bg-b{
     background-color: #2e3832;
+    border-radius: 4px;
 }
 .introduction {
-    background-color: #f9f9f9; /* Warna latar belakang yang lembut */
+    background-color: #f7fff6; 
     padding: 20px; /* Ruang di dalam elemen */
     margin: 20px 0; /* Ruang di luar elemen */
     border-radius: 8px; /* Sudut yang membulat */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
     font-size: 1.1em; /* Ukuran font yang sedikit lebih besar */
     line-height: 1.6; /* Jarak antar baris yang lebih baik */
+    color: #604a4a;
 }
